@@ -1,0 +1,260 @@
+@prefix ns1: <http://example.org/medical#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ns1:DoctorTimeSlot1 a ns1:DoctorTimeSlot ;
+    ns1:hasDoctor ns1:Doctor1 ;
+    ns1:isFree true ;
+    ns1:timeEnd "2025-05-13T11:00:00"^^xsd:dateTime ;
+    ns1:timeStart "2025-05-13T10:00:00"^^xsd:dateTime .
+
+ns1:DoctorTimeSlot10 a ns1:DoctorTimeSlot ;
+    ns1:hasDoctor ns1:Doctor5 ;
+    ns1:isFree true ;
+    ns1:timeEnd "2025-05-13T11:00:00"^^xsd:dateTime ;
+    ns1:timeStart "2025-05-13T10:00:00"^^xsd:dateTime .
+
+ns1:DoctorTimeSlot11 a ns1:DoctorTimeSlot ;
+    ns1:hasDoctor ns1:Doctor5 ;
+    ns1:isFree true ;
+    ns1:timeEnd "2025-05-14T15:00:00"^^xsd:dateTime ;
+    ns1:timeStart "2025-05-14T14:00:00"^^xsd:dateTime .
+
+ns1:DoctorTimeSlot12 a ns1:DoctorTimeSlot ;
+    ns1:hasDoctor ns1:Doctor5 ;
+    ns1:isFree true ;
+    ns1:timeEnd "2025-05-15T10:00:00"^^xsd:dateTime ;
+    ns1:timeStart "2025-05-15T09:00:00"^^xsd:dateTime .
+
+ns1:DoctorTimeSlot13 a ns1:DoctorTimeSlot ;
+    ns1:hasDoctor ns1:Doctor6 ;
+    ns1:isFree true ;
+    ns1:timeEnd "2025-05-13T11:00:00"^^xsd:dateTime ;
+    ns1:timeStart "2025-05-13T10:00:00"^^xsd:dateTime .
+
+ns1:DoctorTimeSlot14 a ns1:DoctorTimeSlot ;
+    ns1:hasDoctor ns1:Doctor6 ;
+    ns1:isFree true ;
+    ns1:timeEnd "2025-05-14T15:00:00"^^xsd:dateTime ;
+    ns1:timeStart "2025-05-14T14:00:00"^^xsd:dateTime .
+
+ns1:DoctorTimeSlot15 a ns1:DoctorTimeSlot ;
+    ns1:hasDoctor ns1:Doctor7 ;
+    ns1:isFree true ;
+    ns1:timeEnd "2025-05-13T11:00:00"^^xsd:dateTime ;
+    ns1:timeStart "2025-05-13T10:00:00"^^xsd:dateTime .
+
+ns1:DoctorTimeSlot16 a ns1:DoctorTimeSlot ;
+    ns1:hasDoctor ns1:Doctor7 ;
+    ns1:isFree true ;
+    ns1:timeEnd "2025-05-14T15:00:00"^^xsd:dateTime ;
+    ns1:timeStart "2025-05-14T14:00:00"^^xsd:dateTime .
+
+ns1:DoctorTimeSlot17 a ns1:DoctorTimeSlot ;
+    ns1:hasDoctor ns1:Doctor7 ;
+    ns1:isFree true ;
+    ns1:timeEnd "2025-05-15T10:00:00"^^xsd:dateTime ;
+    ns1:timeStart "2025-05-15T09:00:00"^^xsd:dateTime .
+
+ns1:DoctorTimeSlot18 a ns1:DoctorTimeSlot ;
+    ns1:hasDoctor ns1:Doctor8 ;
+    ns1:isFree true ;
+    ns1:timeEnd "2025-05-13T11:00:00"^^xsd:dateTime ;
+    ns1:timeStart "2025-05-13T10:00:00"^^xsd:dateTime .
+
+ns1:DoctorTimeSlot19 a ns1:DoctorTimeSlot ;
+    ns1:hasDoctor ns1:Doctor8 ;
+    ns1:isFree true ;
+    ns1:timeEnd "2025-05-14T15:00:00"^^xsd:dateTime ;
+    ns1:timeStart "2025-05-14T14:00:00"^^xsd:dateTime .
+
+ns1:DoctorTimeSlot2 a ns1:DoctorTimeSlot ;
+    ns1:hasDoctor ns1:Doctor1 ;
+    ns1:isFree true ;
+    ns1:timeEnd "2025-05-14T15:00:00"^^xsd:dateTime ;
+    ns1:timeStart "2025-05-14T14:00:00"^^xsd:dateTime .
+
+ns1:DoctorTimeSlot20 a ns1:DoctorTimeSlot ;
+    ns1:hasDoctor ns1:Doctor9 ;
+    ns1:isFree true ;
+    ns1:timeEnd "2025-05-13T11:00:00"^^xsd:dateTime ;
+    ns1:timeStart "2025-05-13T10:00:00"^^xsd:dateTime .
+
+ns1:DoctorTimeSlot21 a ns1:DoctorTimeSlot ;
+    ns1:hasDoctor ns1:Doctor9 ;
+    ns1:isFree true ;
+    ns1:timeEnd "2025-05-14T15:00:00"^^xsd:dateTime ;
+    ns1:timeStart "2025-05-14T14:00:00"^^xsd:dateTime .
+
+ns1:DoctorTimeSlot22 a ns1:DoctorTimeSlot ;
+    ns1:hasDoctor ns1:Doctor10 ;
+    ns1:isFree true ;
+    ns1:timeEnd "2025-05-13T11:00:00"^^xsd:dateTime ;
+    ns1:timeStart "2025-05-13T10:00:00"^^xsd:dateTime .
+
+ns1:DoctorTimeSlot23 a ns1:DoctorTimeSlot ;
+    ns1:hasDoctor ns1:Doctor10 ;
+    ns1:isFree true ;
+    ns1:timeEnd "2025-05-14T15:00:00"^^xsd:dateTime ;
+    ns1:timeStart "2025-05-14T14:00:00"^^xsd:dateTime .
+
+ns1:DoctorTimeSlot24 a ns1:DoctorTimeSlot ;
+    ns1:hasDoctor ns1:Doctor10 ;
+    ns1:isFree true ;
+    ns1:timeEnd "2025-05-15T10:00:00"^^xsd:dateTime ;
+    ns1:timeStart "2025-05-15T09:00:00"^^xsd:dateTime .
+
+ns1:DoctorTimeSlot3 a ns1:DoctorTimeSlot ;
+    ns1:hasDoctor ns1:Doctor1 ;
+    ns1:isFree true ;
+    ns1:timeEnd "2025-05-15T10:00:00"^^xsd:dateTime ;
+    ns1:timeStart "2025-05-15T09:00:00"^^xsd:dateTime .
+
+ns1:DoctorTimeSlot4 a ns1:DoctorTimeSlot ;
+    ns1:hasDoctor ns1:Doctor2 ;
+    ns1:isFree true ;
+    ns1:timeEnd "2025-05-13T11:00:00"^^xsd:dateTime ;
+    ns1:timeStart "2025-05-13T10:00:00"^^xsd:dateTime .
+
+ns1:DoctorTimeSlot5 a ns1:DoctorTimeSlot ;
+    ns1:hasDoctor ns1:Doctor2 ;
+    ns1:isFree true ;
+    ns1:timeEnd "2025-05-14T15:00:00"^^xsd:dateTime ;
+    ns1:timeStart "2025-05-14T14:00:00"^^xsd:dateTime .
+
+ns1:DoctorTimeSlot6 a ns1:DoctorTimeSlot ;
+    ns1:hasDoctor ns1:Doctor3 ;
+    ns1:isFree false ;
+    ns1:timeEnd "2025-05-13T11:00:00"^^xsd:dateTime ;
+    ns1:timeStart "2025-05-13T10:00:00"^^xsd:dateTime .
+
+ns1:DoctorTimeSlot7 a ns1:DoctorTimeSlot ;
+    ns1:hasDoctor ns1:Doctor3 ;
+    ns1:isFree true ;
+    ns1:timeEnd "2025-05-14T15:00:00"^^xsd:dateTime ;
+    ns1:timeStart "2025-05-14T14:00:00"^^xsd:dateTime .
+
+ns1:DoctorTimeSlot8 a ns1:DoctorTimeSlot ;
+    ns1:hasDoctor ns1:Doctor4 ;
+    ns1:isFree true ;
+    ns1:timeEnd "2025-05-13T11:00:00"^^xsd:dateTime ;
+    ns1:timeStart "2025-05-13T10:00:00"^^xsd:dateTime .
+
+ns1:DoctorTimeSlot9 a ns1:DoctorTimeSlot ;
+    ns1:hasDoctor ns1:Doctor4 ;
+    ns1:isFree true ;
+    ns1:timeEnd "2025-05-14T15:00:00"^^xsd:dateTime ;
+    ns1:timeStart "2025-05-14T14:00:00"^^xsd:dateTime .
+
+ns1:UserTimeSlot1 a ns1:UserTimeSlot ;
+    ns1:hasActivity "Учёба" ;
+    ns1:isFree false ;
+    ns1:timeEnd "2025-05-13T09:00:00"^^xsd:dateTime ;
+    ns1:timeStart "2025-05-13T08:00:00"^^xsd:dateTime .
+
+ns1:UserTimeSlot196 a ns1:UserTimeSlot ;
+    ns1:hasActivity "Визит к врачу" ;
+    ns1:isFree false ;
+    ns1:timeEnd "2025-05-13T11:00:00"^^xsd:dateTime ;
+    ns1:timeStart "2025-05-13T10:00:00"^^xsd:dateTime .
+
+ns1:UserTimeSlot2 a ns1:UserTimeSlot ;
+    ns1:hasActivity "Работа" ;
+    ns1:isFree false ;
+    ns1:timeEnd "2025-05-13T17:00:00"^^xsd:dateTime ;
+    ns1:timeStart "2025-05-13T15:00:00"^^xsd:dateTime .
+
+ns1:UserTimeSlot201 a ns1:UserTimeSlot ;
+    ns1:hasActivity "Настольный теннис" ;
+    ns1:isFree false ;
+    ns1:timeEnd "2025-05-14T15:00:00"^^xsd:dateTime ;
+    ns1:timeStart "2025-05-14T14:00:00"^^xsd:dateTime .
+
+ns1:UserTimeSlot206 a ns1:UserTimeSlot ;
+    ns1:hasActivity "Работа" ;
+    ns1:isFree false ;
+    ns1:timeEnd "2025-05-13T11:00:00"^^xsd:dateTime ;
+    ns1:timeStart "2025-05-13T10:00:00"^^xsd:dateTime .
+
+ns1:UserTimeSlot3 a ns1:UserTimeSlot ;
+    ns1:hasActivity "Спорт" ;
+    ns1:isFree false ;
+    ns1:timeEnd "2025-05-14T10:00:00"^^xsd:dateTime ;
+    ns1:timeStart "2025-05-14T09:00:00"^^xsd:dateTime .
+
+ns1:UserTimeSlot4 a ns1:UserTimeSlot ;
+    ns1:hasActivity "Встреча с друзьями" ;
+    ns1:isFree false ;
+    ns1:timeEnd "2025-05-14T19:00:00"^^xsd:dateTime ;
+    ns1:timeStart "2025-05-14T18:00:00"^^xsd:dateTime .
+
+ns1:UserTimeSlot5 a ns1:UserTimeSlot ;
+    ns1:hasActivity "Чтение" ;
+    ns1:isFree false ;
+    ns1:timeEnd "2025-05-15T12:00:00"^^xsd:dateTime ;
+    ns1:timeStart "2025-05-15T11:00:00"^^xsd:dateTime .
+
+ns1:Hospital5 a ns1:Hospital ;
+    ns1:address "ул. Зеленая, 8" .
+
+ns1:Doctor2 a ns1:Doctor ;
+    ns1:name "Петров Алексей Сергеевич" ;
+    ns1:specialty "Терапевт" ;
+    ns1:worksIn ns1:Hospital1 .
+
+ns1:Doctor3 a ns1:Doctor ;
+    ns1:name "Сидорова Мария Петровна" ;
+    ns1:specialty "Невролог" ;
+    ns1:worksIn ns1:Hospital2 .
+
+ns1:Doctor4 a ns1:Doctor ;
+    ns1:name "Козлов Дмитрий Викторович" ;
+    ns1:specialty "Хирург" ;
+    ns1:worksIn ns1:Hospital2 .
+
+ns1:Doctor6 a ns1:Doctor ;
+    ns1:name "Николаева Анна Павловна" ;
+    ns1:specialty "Терапевт" ;
+    ns1:worksIn ns1:Hospital3 .
+
+ns1:Doctor8 a ns1:Doctor ;
+    ns1:name "Васильева Ольга Николаевна" ;
+    ns1:specialty "Невролог" ;
+    ns1:worksIn ns1:Hospital4 .
+
+ns1:Doctor9 a ns1:Doctor ;
+    ns1:name "Федоров Михаил Юрьевич" ;
+    ns1:specialty "Хирург" ;
+    ns1:worksIn ns1:Hospital4 .
+
+ns1:Hospital1 a ns1:Hospital ;
+    ns1:address "ул. Ленина, 10" .
+
+ns1:Hospital3 a ns1:Hospital ;
+    ns1:address "ул. Победы, 25" .
+
+ns1:Hospital4 a ns1:Hospital ;
+    ns1:address "ул. Советская, 15" .
+
+ns1:Doctor1 a ns1:Doctor ;
+    ns1:name "Иванов Иван Иванович" ;
+    ns1:specialty "Кардиолог" ;
+    ns1:worksIn ns1:Hospital1 .
+
+ns1:Doctor10 a ns1:Doctor ;
+    ns1:name "Кузнецова Екатерина Андреевна" ;
+    ns1:specialty "Ортопед" ;
+    ns1:worksIn ns1:Hospital5 .
+
+ns1:Doctor5 a ns1:Doctor ;
+    ns1:name "Смирнова Елена Викторовна" ;
+    ns1:specialty "Кардиолог" ;
+    ns1:worksIn ns1:Hospital2 .
+
+ns1:Doctor7 a ns1:Doctor ;
+    ns1:name "Морозов Сергей Иванович" ;
+    ns1:specialty "Ортопед" ;
+    ns1:worksIn ns1:Hospital3 .
+
+ns1:Hospital2 a ns1:Hospital ;
+    ns1:address "ул. Мира, 5" .
+
