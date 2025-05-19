@@ -2,7 +2,6 @@ from rdflib import Graph, Literal, RDF, URIRef, Namespace
 
 EX = Namespace("http://example.org/medical#")
 
-
 def initialize_hospitals(g):
     """Инициализация данных о поликлиниках."""
     hospitals = [
@@ -11,6 +10,11 @@ def initialize_hospitals(g):
         ("Hospital3", "ул. Победы, 25"),
         ("Hospital4", "ул. Советская, 15"),
         ("Hospital5", "ул. Зеленая, 8"),
+        ("Hospital6", "ул. Гагарина, 12"),
+        ("Hospital7", "ул. Молодёжная, 3"),
+        ("Hospital8", "ул. Солнечная, 20"),
+        ("Hospital9", "ул. Центральная, 7"),
+        ("Hospital10", "ул. Парковая, 14"),
     ]
 
     for hospital_id, address in hospitals:

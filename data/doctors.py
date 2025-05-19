@@ -3,7 +3,6 @@ from rdflib.namespace import XSD
 
 EX = Namespace("http://example.org/medical#")
 
-
 def initialize_doctors(g):
     """Инициализация данных о врачах."""
     doctors = [
@@ -17,6 +16,16 @@ def initialize_doctors(g):
         ("Doctor8", "Васильева Ольга Николаевна", "Невролог", EX.Hospital4),
         ("Doctor9", "Федоров Михаил Юрьевич", "Хирург", EX.Hospital4),
         ("Doctor10", "Кузнецова Екатерина Андреевна", "Ортопед", EX.Hospital5),
+        ("Doctor11", "Лебедева Наталья Ивановна", "Педиатр", EX.Hospital6),
+        ("Doctor12", "Григорьев Павел Александрович", "Офтальмолог", EX.Hospital6),
+        ("Doctor13", "Зайцева Юлия Сергеевна", "Дерматолог", EX.Hospital7),
+        ("Doctor14", "Соколов Артём Михайлович", "Кардиолог", EX.Hospital7),
+        ("Doctor15", "Егорова Светлана Викторовна", "Терапевт", EX.Hospital8),
+        ("Doctor16", "Белов Игорь Николаевич", "Невролог", EX.Hospital8),
+        ("Doctor17", "Крылова Алина Дмитриевна", "Хирург", EX.Hospital9),
+        ("Doctor18", "Михайлов Олег Петрович", "Ортопед", EX.Hospital9),
+        ("Doctor19", "Титова Екатерина Павловна", "Педиатр", EX.Hospital10),
+        ("Doctor20", "Романов Денис Андреевич", "Офтальмолог", EX.Hospital10),
     ]
 
     slot_counter = 1
@@ -32,8 +41,16 @@ def initialize_doctors(g):
             ("2025-05-13T10:00:00", "2025-05-13T11:00:00"),
             ("2025-05-14T14:00:00", "2025-05-14T15:00:00"),
         ]
-        if specialty in ["Кардиолог", "Ортопед"]:  # Дополнительный слот для кардиологов и ортопедов
+        if specialty in ["Кардиолог", "Ортопед", "Педиатр", "Офтальмолог"]:  # Дополнительный слот для некоторых специальностей
             slots.append(("2025-05-15T09:00:00", "2025-05-15T10:00:00"))
+        # Новые даты для новых врачей (Doctor11–Doctor20)
+        if int(doc_id.replace("Doctor", "")) > 10:
+            slots.extend([
+                ("2025-05-16T11:00:00", "2025-05-16T12:00:00"),
+                ("2025-05-17T13:00:00", "2025-05-17T14:00:00"),
+            ])
+            if specialty in ["Педиатр", "Офтальмолог"]:
+                slots.append(("2025-05-18T08:00:00", "2025-05-18T09:00:00"))
 
         for start, end in slots:
             slot = URIRef(EX + f"DoctorTimeSlot{slot_counter}")
@@ -43,7 +60,6 @@ def initialize_doctors(g):
             g.add((slot, EX.timeEnd, Literal(end, datatype=XSD.dateTime)))
             g.add((slot, EX.isFree, Literal(True)))
             slot_counter += 1
-
 
 def get_doctors_by_specialty(specialty, g):
     """Получение врачей по специальности."""
@@ -73,7 +89,8 @@ def get_doctors_by_specialty(specialty, g):
             "hospital": str(row.address),
             "slot_uri": str(row.slot),
             "time_start": str(row.timeStart),
-            "time_end": str(row.timeEnd)
+            "time_end": str(row.timeEnd),
+            "specialty": str(row.specialty)  # Добавляем specialty в результат
         }
         for row in results
     ]

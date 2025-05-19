@@ -103,11 +103,101 @@ ns1:DoctorTimeSlot24 a ns1:DoctorTimeSlot ;
     ns1:timeEnd "2025-05-15T10:00:00"^^xsd:dateTime ;
     ns1:timeStart "2025-05-15T09:00:00"^^xsd:dateTime .
 
+ns1:DoctorTimeSlot25 a ns1:DoctorTimeSlot ;
+    ns1:hasDoctor ns1:Doctor11 ;
+    ns1:isFree true ;
+    ns1:timeEnd "2025-05-13T11:00:00"^^xsd:dateTime ;
+    ns1:timeStart "2025-05-13T10:00:00"^^xsd:dateTime .
+
+ns1:DoctorTimeSlot26 a ns1:DoctorTimeSlot ;
+    ns1:hasDoctor ns1:Doctor11 ;
+    ns1:isFree true ;
+    ns1:timeEnd "2025-05-14T15:00:00"^^xsd:dateTime ;
+    ns1:timeStart "2025-05-14T14:00:00"^^xsd:dateTime .
+
+ns1:DoctorTimeSlot27 a ns1:DoctorTimeSlot ;
+    ns1:hasDoctor ns1:Doctor11 ;
+    ns1:isFree true ;
+    ns1:timeEnd "2025-05-15T10:00:00"^^xsd:dateTime ;
+    ns1:timeStart "2025-05-15T09:00:00"^^xsd:dateTime .
+
+ns1:DoctorTimeSlot28 a ns1:DoctorTimeSlot ;
+    ns1:hasDoctor ns1:Doctor11 ;
+    ns1:isFree true ;
+    ns1:timeEnd "2025-05-16T12:00:00"^^xsd:dateTime ;
+    ns1:timeStart "2025-05-16T11:00:00"^^xsd:dateTime .
+
+ns1:DoctorTimeSlot29 a ns1:DoctorTimeSlot ;
+    ns1:hasDoctor ns1:Doctor11 ;
+    ns1:isFree true ;
+    ns1:timeEnd "2025-05-17T14:00:00"^^xsd:dateTime ;
+    ns1:timeStart "2025-05-17T13:00:00"^^xsd:dateTime .
+
 ns1:DoctorTimeSlot3 a ns1:DoctorTimeSlot ;
     ns1:hasDoctor ns1:Doctor1 ;
     ns1:isFree true ;
     ns1:timeEnd "2025-05-15T10:00:00"^^xsd:dateTime ;
     ns1:timeStart "2025-05-15T09:00:00"^^xsd:dateTime .
+
+ns1:DoctorTimeSlot30 a ns1:DoctorTimeSlot ;
+    ns1:hasDoctor ns1:Doctor11 ;
+    ns1:isFree true ;
+    ns1:timeEnd "2025-05-18T09:00:00"^^xsd:dateTime ;
+    ns1:timeStart "2025-05-18T08:00:00"^^xsd:dateTime .
+
+ns1:DoctorTimeSlot31 a ns1:DoctorTimeSlot ;
+    ns1:hasDoctor ns1:Doctor12 ;
+    ns1:isFree true ;
+    ns1:timeEnd "2025-05-13T11:00:00"^^xsd:dateTime ;
+    ns1:timeStart "2025-05-13T10:00:00"^^xsd:dateTime .
+
+ns1:DoctorTimeSlot32 a ns1:DoctorTimeSlot ;
+    ns1:hasDoctor ns1:Doctor12 ;
+    ns1:isFree true ;
+    ns1:timeEnd "2025-05-14T15:00:00"^^xsd:dateTime ;
+    ns1:timeStart "2025-05-14T14:00:00"^^xsd:dateTime .
+
+ns1:DoctorTimeSlot33 a ns1:DoctorTimeSlot ;
+    ns1:hasDoctor ns1:Doctor12 ;
+    ns1:isFree true ;
+    ns1:timeEnd "2025-05-15T10:00:00"^^xsd:dateTime ;
+    ns1:timeStart "2025-05-15T09:00:00"^^xsd:dateTime .
+
+ns1:DoctorTimeSlot34 a ns1:DoctorTimeSlot ;
+    ns1:hasDoctor ns1:Doctor12 ;
+    ns1:isFree true ;
+    ns1:timeEnd "2025-05-16T12:00:00"^^xsd:dateTime ;
+    ns1:timeStart "2025-05-16T11:00:00"^^xsd:dateTime .
+
+ns1:DoctorTimeSlot35 a ns1:DoctorTimeSlot ;
+    ns1:hasDoctor ns1:Doctor12 ;
+    ns1:isFree true ;
+    ns1:timeEnd "2025-05-17T14:00:00"^^xsd:dateTime ;
+    ns1:timeStart "2025-05-17T13:00:00"^^xsd:dateTime .
+
+ns1:DoctorTimeSlot36 a ns1:DoctorTimeSlot ;
+    ns1:hasDoctor ns1:Doctor12 ;
+    ns1:isFree true ;
+    ns1:timeEnd "2025-05-18T09:00:00"^^xsd:dateTime ;
+    ns1:timeStart "2025-05-18T08:00:00"^^xsd:dateTime .
+
+ns1:DoctorTimeSlot37 a ns1:DoctorTimeSlot ;
+    ns1:hasDoctor ns1:Doctor13 ;
+    ns1:isFree true ;
+    ns1:timeEnd "2025-05-13T11:00:00"^^xsd:dateTime ;
+    ns1:timeStart "2025-05-13T10:00:00"^^xsd:dateTime .
+
+ns1:DoctorTimeSlot38 a ns1:DoctorTimeSlot ;
+    ns1:hasDoctor ns1:Doctor13 ;
+    ns1:isFree true ;
+    ns1:timeEnd "2025-05-14T15:00:00"^^xsd:dateTime ;
+    ns1:timeStart "2025-05-14T14:00:00"^^xsd:dateTime .
+
+ns1:DoctorTimeSlot39 a ns1:DoctorTimeSlot ;
+    ns1:hasDoctor ns1:Doctor13 ;
+    ns1:isFree true ;
+    ns1:timeEnd "2025-05-16T12:00:00"^^xsd:dateTime ;
+    ns1:timeStart "2025-05-16T11:00:00"^^xsd:dateTime .
 
 ns1:DoctorTimeSlot4 a ns1:DoctorTimeSlot ;
     ns1:hasDoctor ns1:Doctor2 ;
@@ -115,15 +205,195 @@ ns1:DoctorTimeSlot4 a ns1:DoctorTimeSlot ;
     ns1:timeEnd "2025-05-13T11:00:00"^^xsd:dateTime ;
     ns1:timeStart "2025-05-13T10:00:00"^^xsd:dateTime .
 
+ns1:DoctorTimeSlot40 a ns1:DoctorTimeSlot ;
+    ns1:hasDoctor ns1:Doctor13 ;
+    ns1:isFree true ;
+    ns1:timeEnd "2025-05-17T14:00:00"^^xsd:dateTime ;
+    ns1:timeStart "2025-05-17T13:00:00"^^xsd:dateTime .
+
+ns1:DoctorTimeSlot41 a ns1:DoctorTimeSlot ;
+    ns1:hasDoctor ns1:Doctor14 ;
+    ns1:isFree true ;
+    ns1:timeEnd "2025-05-13T11:00:00"^^xsd:dateTime ;
+    ns1:timeStart "2025-05-13T10:00:00"^^xsd:dateTime .
+
+ns1:DoctorTimeSlot42 a ns1:DoctorTimeSlot ;
+    ns1:hasDoctor ns1:Doctor14 ;
+    ns1:isFree true ;
+    ns1:timeEnd "2025-05-14T15:00:00"^^xsd:dateTime ;
+    ns1:timeStart "2025-05-14T14:00:00"^^xsd:dateTime .
+
+ns1:DoctorTimeSlot43 a ns1:DoctorTimeSlot ;
+    ns1:hasDoctor ns1:Doctor14 ;
+    ns1:isFree true ;
+    ns1:timeEnd "2025-05-15T10:00:00"^^xsd:dateTime ;
+    ns1:timeStart "2025-05-15T09:00:00"^^xsd:dateTime .
+
+ns1:DoctorTimeSlot44 a ns1:DoctorTimeSlot ;
+    ns1:hasDoctor ns1:Doctor14 ;
+    ns1:isFree true ;
+    ns1:timeEnd "2025-05-16T12:00:00"^^xsd:dateTime ;
+    ns1:timeStart "2025-05-16T11:00:00"^^xsd:dateTime .
+
+ns1:DoctorTimeSlot45 a ns1:DoctorTimeSlot ;
+    ns1:hasDoctor ns1:Doctor14 ;
+    ns1:isFree true ;
+    ns1:timeEnd "2025-05-17T14:00:00"^^xsd:dateTime ;
+    ns1:timeStart "2025-05-17T13:00:00"^^xsd:dateTime .
+
+ns1:DoctorTimeSlot46 a ns1:DoctorTimeSlot ;
+    ns1:hasDoctor ns1:Doctor15 ;
+    ns1:isFree true ;
+    ns1:timeEnd "2025-05-13T11:00:00"^^xsd:dateTime ;
+    ns1:timeStart "2025-05-13T10:00:00"^^xsd:dateTime .
+
+ns1:DoctorTimeSlot47 a ns1:DoctorTimeSlot ;
+    ns1:hasDoctor ns1:Doctor15 ;
+    ns1:isFree true ;
+    ns1:timeEnd "2025-05-14T15:00:00"^^xsd:dateTime ;
+    ns1:timeStart "2025-05-14T14:00:00"^^xsd:dateTime .
+
+ns1:DoctorTimeSlot48 a ns1:DoctorTimeSlot ;
+    ns1:hasDoctor ns1:Doctor15 ;
+    ns1:isFree true ;
+    ns1:timeEnd "2025-05-16T12:00:00"^^xsd:dateTime ;
+    ns1:timeStart "2025-05-16T11:00:00"^^xsd:dateTime .
+
+ns1:DoctorTimeSlot49 a ns1:DoctorTimeSlot ;
+    ns1:hasDoctor ns1:Doctor15 ;
+    ns1:isFree true ;
+    ns1:timeEnd "2025-05-17T14:00:00"^^xsd:dateTime ;
+    ns1:timeStart "2025-05-17T13:00:00"^^xsd:dateTime .
+
 ns1:DoctorTimeSlot5 a ns1:DoctorTimeSlot ;
     ns1:hasDoctor ns1:Doctor2 ;
     ns1:isFree true ;
     ns1:timeEnd "2025-05-14T15:00:00"^^xsd:dateTime ;
     ns1:timeStart "2025-05-14T14:00:00"^^xsd:dateTime .
 
+ns1:DoctorTimeSlot50 a ns1:DoctorTimeSlot ;
+    ns1:hasDoctor ns1:Doctor16 ;
+    ns1:isFree true ;
+    ns1:timeEnd "2025-05-13T11:00:00"^^xsd:dateTime ;
+    ns1:timeStart "2025-05-13T10:00:00"^^xsd:dateTime .
+
+ns1:DoctorTimeSlot51 a ns1:DoctorTimeSlot ;
+    ns1:hasDoctor ns1:Doctor16 ;
+    ns1:isFree true ;
+    ns1:timeEnd "2025-05-14T15:00:00"^^xsd:dateTime ;
+    ns1:timeStart "2025-05-14T14:00:00"^^xsd:dateTime .
+
+ns1:DoctorTimeSlot52 a ns1:DoctorTimeSlot ;
+    ns1:hasDoctor ns1:Doctor16 ;
+    ns1:isFree true ;
+    ns1:timeEnd "2025-05-16T12:00:00"^^xsd:dateTime ;
+    ns1:timeStart "2025-05-16T11:00:00"^^xsd:dateTime .
+
+ns1:DoctorTimeSlot53 a ns1:DoctorTimeSlot ;
+    ns1:hasDoctor ns1:Doctor16 ;
+    ns1:isFree true ;
+    ns1:timeEnd "2025-05-17T14:00:00"^^xsd:dateTime ;
+    ns1:timeStart "2025-05-17T13:00:00"^^xsd:dateTime .
+
+ns1:DoctorTimeSlot54 a ns1:DoctorTimeSlot ;
+    ns1:hasDoctor ns1:Doctor17 ;
+    ns1:isFree true ;
+    ns1:timeEnd "2025-05-13T11:00:00"^^xsd:dateTime ;
+    ns1:timeStart "2025-05-13T10:00:00"^^xsd:dateTime .
+
+ns1:DoctorTimeSlot55 a ns1:DoctorTimeSlot ;
+    ns1:hasDoctor ns1:Doctor17 ;
+    ns1:isFree true ;
+    ns1:timeEnd "2025-05-14T15:00:00"^^xsd:dateTime ;
+    ns1:timeStart "2025-05-14T14:00:00"^^xsd:dateTime .
+
+ns1:DoctorTimeSlot56 a ns1:DoctorTimeSlot ;
+    ns1:hasDoctor ns1:Doctor17 ;
+    ns1:isFree true ;
+    ns1:timeEnd "2025-05-16T12:00:00"^^xsd:dateTime ;
+    ns1:timeStart "2025-05-16T11:00:00"^^xsd:dateTime .
+
+ns1:DoctorTimeSlot57 a ns1:DoctorTimeSlot ;
+    ns1:hasDoctor ns1:Doctor17 ;
+    ns1:isFree true ;
+    ns1:timeEnd "2025-05-17T14:00:00"^^xsd:dateTime ;
+    ns1:timeStart "2025-05-17T13:00:00"^^xsd:dateTime .
+
+ns1:DoctorTimeSlot58 a ns1:DoctorTimeSlot ;
+    ns1:hasDoctor ns1:Doctor18 ;
+    ns1:isFree true ;
+    ns1:timeEnd "2025-05-13T11:00:00"^^xsd:dateTime ;
+    ns1:timeStart "2025-05-13T10:00:00"^^xsd:dateTime .
+
+ns1:DoctorTimeSlot59 a ns1:DoctorTimeSlot ;
+    ns1:hasDoctor ns1:Doctor18 ;
+    ns1:isFree true ;
+    ns1:timeEnd "2025-05-14T15:00:00"^^xsd:dateTime ;
+    ns1:timeStart "2025-05-14T14:00:00"^^xsd:dateTime .
+
 ns1:DoctorTimeSlot6 a ns1:DoctorTimeSlot ;
     ns1:hasDoctor ns1:Doctor3 ;
-    ns1:isFree false ;
+    ns1:isFree true ;
+    ns1:timeEnd "2025-05-13T11:00:00"^^xsd:dateTime ;
+    ns1:timeStart "2025-05-13T10:00:00"^^xsd:dateTime .
+
+ns1:DoctorTimeSlot60 a ns1:DoctorTimeSlot ;
+    ns1:hasDoctor ns1:Doctor18 ;
+    ns1:isFree true ;
+    ns1:timeEnd "2025-05-15T10:00:00"^^xsd:dateTime ;
+    ns1:timeStart "2025-05-15T09:00:00"^^xsd:dateTime .
+
+ns1:DoctorTimeSlot61 a ns1:DoctorTimeSlot ;
+    ns1:hasDoctor ns1:Doctor18 ;
+    ns1:isFree true ;
+    ns1:timeEnd "2025-05-16T12:00:00"^^xsd:dateTime ;
+    ns1:timeStart "2025-05-16T11:00:00"^^xsd:dateTime .
+
+ns1:DoctorTimeSlot62 a ns1:DoctorTimeSlot ;
+    ns1:hasDoctor ns1:Doctor18 ;
+    ns1:isFree true ;
+    ns1:timeEnd "2025-05-17T14:00:00"^^xsd:dateTime ;
+    ns1:timeStart "2025-05-17T13:00:00"^^xsd:dateTime .
+
+ns1:DoctorTimeSlot63 a ns1:DoctorTimeSlot ;
+    ns1:hasDoctor ns1:Doctor19 ;
+    ns1:isFree true ;
+    ns1:timeEnd "2025-05-13T11:00:00"^^xsd:dateTime ;
+    ns1:timeStart "2025-05-13T10:00:00"^^xsd:dateTime .
+
+ns1:DoctorTimeSlot64 a ns1:DoctorTimeSlot ;
+    ns1:hasDoctor ns1:Doctor19 ;
+    ns1:isFree true ;
+    ns1:timeEnd "2025-05-14T15:00:00"^^xsd:dateTime ;
+    ns1:timeStart "2025-05-14T14:00:00"^^xsd:dateTime .
+
+ns1:DoctorTimeSlot65 a ns1:DoctorTimeSlot ;
+    ns1:hasDoctor ns1:Doctor19 ;
+    ns1:isFree true ;
+    ns1:timeEnd "2025-05-15T10:00:00"^^xsd:dateTime ;
+    ns1:timeStart "2025-05-15T09:00:00"^^xsd:dateTime .
+
+ns1:DoctorTimeSlot66 a ns1:DoctorTimeSlot ;
+    ns1:hasDoctor ns1:Doctor19 ;
+    ns1:isFree true ;
+    ns1:timeEnd "2025-05-16T12:00:00"^^xsd:dateTime ;
+    ns1:timeStart "2025-05-16T11:00:00"^^xsd:dateTime .
+
+ns1:DoctorTimeSlot67 a ns1:DoctorTimeSlot ;
+    ns1:hasDoctor ns1:Doctor19 ;
+    ns1:isFree true ;
+    ns1:timeEnd "2025-05-17T14:00:00"^^xsd:dateTime ;
+    ns1:timeStart "2025-05-17T13:00:00"^^xsd:dateTime .
+
+ns1:DoctorTimeSlot68 a ns1:DoctorTimeSlot ;
+    ns1:hasDoctor ns1:Doctor19 ;
+    ns1:isFree true ;
+    ns1:timeEnd "2025-05-18T09:00:00"^^xsd:dateTime ;
+    ns1:timeStart "2025-05-18T08:00:00"^^xsd:dateTime .
+
+ns1:DoctorTimeSlot69 a ns1:DoctorTimeSlot ;
+    ns1:hasDoctor ns1:Doctor20 ;
+    ns1:isFree true ;
     ns1:timeEnd "2025-05-13T11:00:00"^^xsd:dateTime ;
     ns1:timeStart "2025-05-13T10:00:00"^^xsd:dateTime .
 
@@ -132,6 +402,36 @@ ns1:DoctorTimeSlot7 a ns1:DoctorTimeSlot ;
     ns1:isFree true ;
     ns1:timeEnd "2025-05-14T15:00:00"^^xsd:dateTime ;
     ns1:timeStart "2025-05-14T14:00:00"^^xsd:dateTime .
+
+ns1:DoctorTimeSlot70 a ns1:DoctorTimeSlot ;
+    ns1:hasDoctor ns1:Doctor20 ;
+    ns1:isFree true ;
+    ns1:timeEnd "2025-05-14T15:00:00"^^xsd:dateTime ;
+    ns1:timeStart "2025-05-14T14:00:00"^^xsd:dateTime .
+
+ns1:DoctorTimeSlot71 a ns1:DoctorTimeSlot ;
+    ns1:hasDoctor ns1:Doctor20 ;
+    ns1:isFree true ;
+    ns1:timeEnd "2025-05-15T10:00:00"^^xsd:dateTime ;
+    ns1:timeStart "2025-05-15T09:00:00"^^xsd:dateTime .
+
+ns1:DoctorTimeSlot72 a ns1:DoctorTimeSlot ;
+    ns1:hasDoctor ns1:Doctor20 ;
+    ns1:isFree true ;
+    ns1:timeEnd "2025-05-16T12:00:00"^^xsd:dateTime ;
+    ns1:timeStart "2025-05-16T11:00:00"^^xsd:dateTime .
+
+ns1:DoctorTimeSlot73 a ns1:DoctorTimeSlot ;
+    ns1:hasDoctor ns1:Doctor20 ;
+    ns1:isFree true ;
+    ns1:timeEnd "2025-05-17T14:00:00"^^xsd:dateTime ;
+    ns1:timeStart "2025-05-17T13:00:00"^^xsd:dateTime .
+
+ns1:DoctorTimeSlot74 a ns1:DoctorTimeSlot ;
+    ns1:hasDoctor ns1:Doctor20 ;
+    ns1:isFree true ;
+    ns1:timeEnd "2025-05-18T09:00:00"^^xsd:dateTime ;
+    ns1:timeStart "2025-05-18T08:00:00"^^xsd:dateTime .
 
 ns1:DoctorTimeSlot8 a ns1:DoctorTimeSlot ;
     ns1:hasDoctor ns1:Doctor4 ;
@@ -151,29 +451,11 @@ ns1:UserTimeSlot1 a ns1:UserTimeSlot ;
     ns1:timeEnd "2025-05-13T09:00:00"^^xsd:dateTime ;
     ns1:timeStart "2025-05-13T08:00:00"^^xsd:dateTime .
 
-ns1:UserTimeSlot196 a ns1:UserTimeSlot ;
-    ns1:hasActivity "Визит к врачу" ;
-    ns1:isFree false ;
-    ns1:timeEnd "2025-05-13T11:00:00"^^xsd:dateTime ;
-    ns1:timeStart "2025-05-13T10:00:00"^^xsd:dateTime .
-
 ns1:UserTimeSlot2 a ns1:UserTimeSlot ;
     ns1:hasActivity "Работа" ;
     ns1:isFree false ;
     ns1:timeEnd "2025-05-13T17:00:00"^^xsd:dateTime ;
     ns1:timeStart "2025-05-13T15:00:00"^^xsd:dateTime .
-
-ns1:UserTimeSlot201 a ns1:UserTimeSlot ;
-    ns1:hasActivity "Настольный теннис" ;
-    ns1:isFree false ;
-    ns1:timeEnd "2025-05-14T15:00:00"^^xsd:dateTime ;
-    ns1:timeStart "2025-05-14T14:00:00"^^xsd:dateTime .
-
-ns1:UserTimeSlot206 a ns1:UserTimeSlot ;
-    ns1:hasActivity "Работа" ;
-    ns1:isFree false ;
-    ns1:timeEnd "2025-05-13T11:00:00"^^xsd:dateTime ;
-    ns1:timeStart "2025-05-13T10:00:00"^^xsd:dateTime .
 
 ns1:UserTimeSlot3 a ns1:UserTimeSlot ;
     ns1:hasActivity "Спорт" ;
@@ -192,6 +474,24 @@ ns1:UserTimeSlot5 a ns1:UserTimeSlot ;
     ns1:isFree false ;
     ns1:timeEnd "2025-05-15T12:00:00"^^xsd:dateTime ;
     ns1:timeStart "2025-05-15T11:00:00"^^xsd:dateTime .
+
+ns1:UserTimeSlot6 a ns1:UserTimeSlot ;
+    ns1:hasActivity "Прогулка" ;
+    ns1:isFree false ;
+    ns1:timeEnd "2025-05-13T11:00:00"^^xsd:dateTime ;
+    ns1:timeStart "2025-05-13T10:00:00"^^xsd:dateTime .
+
+ns1:UserTimeSlot7 a ns1:UserTimeSlot ;
+    ns1:hasActivity "Работа" ;
+    ns1:isFree false ;
+    ns1:timeEnd "2025-05-14T15:00:00"^^xsd:dateTime ;
+    ns1:timeStart "2025-05-14T14:00:00"^^xsd:dateTime .
+
+ns1:UserTimeSlot8 a ns1:UserTimeSlot ;
+    ns1:hasActivity "Йога" ;
+    ns1:isFree false ;
+    ns1:timeEnd "2025-05-19T11:00:00"^^xsd:dateTime ;
+    ns1:timeStart "2025-05-19T10:00:00"^^xsd:dateTime .
 
 ns1:Hospital5 a ns1:Hospital ;
     ns1:address "ул. Зеленая, 8" .
@@ -229,11 +529,26 @@ ns1:Doctor9 a ns1:Doctor ;
 ns1:Hospital1 a ns1:Hospital ;
     ns1:address "ул. Ленина, 10" .
 
+ns1:Hospital10 a ns1:Hospital ;
+    ns1:address "ул. Парковая, 14" .
+
 ns1:Hospital3 a ns1:Hospital ;
     ns1:address "ул. Победы, 25" .
 
 ns1:Hospital4 a ns1:Hospital ;
     ns1:address "ул. Советская, 15" .
+
+ns1:Hospital6 a ns1:Hospital ;
+    ns1:address "ул. Гагарина, 12" .
+
+ns1:Hospital7 a ns1:Hospital ;
+    ns1:address "ул. Молодёжная, 3" .
+
+ns1:Hospital8 a ns1:Hospital ;
+    ns1:address "ул. Солнечная, 20" .
+
+ns1:Hospital9 a ns1:Hospital ;
+    ns1:address "ул. Центральная, 7" .
 
 ns1:Doctor1 a ns1:Doctor ;
     ns1:name "Иванов Иван Иванович" ;
@@ -257,4 +572,54 @@ ns1:Doctor7 a ns1:Doctor ;
 
 ns1:Hospital2 a ns1:Hospital ;
     ns1:address "ул. Мира, 5" .
+
+ns1:Doctor13 a ns1:Doctor ;
+    ns1:name "Зайцева Юлия Сергеевна" ;
+    ns1:specialty "Дерматолог" ;
+    ns1:worksIn ns1:Hospital7 .
+
+ns1:Doctor15 a ns1:Doctor ;
+    ns1:name "Егорова Светлана Викторовна" ;
+    ns1:specialty "Терапевт" ;
+    ns1:worksIn ns1:Hospital8 .
+
+ns1:Doctor16 a ns1:Doctor ;
+    ns1:name "Белов Игорь Николаевич" ;
+    ns1:specialty "Невролог" ;
+    ns1:worksIn ns1:Hospital8 .
+
+ns1:Doctor17 a ns1:Doctor ;
+    ns1:name "Крылова Алина Дмитриевна" ;
+    ns1:specialty "Хирург" ;
+    ns1:worksIn ns1:Hospital9 .
+
+ns1:Doctor14 a ns1:Doctor ;
+    ns1:name "Соколов Артём Михайлович" ;
+    ns1:specialty "Кардиолог" ;
+    ns1:worksIn ns1:Hospital7 .
+
+ns1:Doctor18 a ns1:Doctor ;
+    ns1:name "Михайлов Олег Петрович" ;
+    ns1:specialty "Ортопед" ;
+    ns1:worksIn ns1:Hospital9 .
+
+ns1:Doctor11 a ns1:Doctor ;
+    ns1:name "Лебедева Наталья Ивановна" ;
+    ns1:specialty "Педиатр" ;
+    ns1:worksIn ns1:Hospital6 .
+
+ns1:Doctor12 a ns1:Doctor ;
+    ns1:name "Григорьев Павел Александрович" ;
+    ns1:specialty "Офтальмолог" ;
+    ns1:worksIn ns1:Hospital6 .
+
+ns1:Doctor19 a ns1:Doctor ;
+    ns1:name "Титова Екатерина Павловна" ;
+    ns1:specialty "Педиатр" ;
+    ns1:worksIn ns1:Hospital10 .
+
+ns1:Doctor20 a ns1:Doctor ;
+    ns1:name "Романов Денис Андреевич" ;
+    ns1:specialty "Офтальмолог" ;
+    ns1:worksIn ns1:Hospital10 .
 
